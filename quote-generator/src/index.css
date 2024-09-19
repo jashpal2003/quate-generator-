@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #000; /* Dark background to enhance neon effect */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app {
+  text-align: center;
+}
+
+.card {
+  background: #111; /* Slightly lighter dark card for contrast */
+  padding: 40px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00ff00; /* Neon green shadow */
+  max-width: 400px;
+  margin: 20px;
+  color: #00ff00; /* Neon green text */
+}
+
+.heading {
+  font-size: 28px;
+  color: #00ff00; /* Neon green */
+  margin-bottom: 30px;
+  position: relative;
+  padding-bottom: 10px;
+  text-shadow: 0 0 10px #00ff00; /* Neon green glow */
+}
+
+.heading::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background-color: #00ff00; /* Neon green underline */
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button {
+  background-color: #00ff00; /* Neon green button */
+  color: black; /* Dark text for contrast */
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 0 0 5px #00ff00; 
+}
+
+.button:hover {
+  background-color: #00cc00;
+}
+
+span {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.author {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #00ff00;
+  text-shadow: 0 0 5px #00ff00;
+}
