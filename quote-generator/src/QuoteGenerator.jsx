@@ -11,7 +11,7 @@ const QuoteGenerator = () => {
   const fetchQuote = async () => {
     try {
       const response = await axios.get('https://api.api-ninjas.com/v1/quotes', {
-        headers: { 'X-Api-Key': 'y9AzeY8TnUvOx5r66YtyZQ==CB4V6R2grdKsNF3u' }, 
+        headers: { 'X-Api-Key': 'Enter your API' }, 
         params: { category: 'happiness' } 
       });
 
